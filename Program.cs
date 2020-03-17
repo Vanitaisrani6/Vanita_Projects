@@ -1,22 +1,14 @@
 ﻿using System;
 
 
-namespace EscapeCmd
+namespace HelloWorldPro
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string Name = "\"Vanita\"";
-            Console.WriteLine(Name);
-
-            string a = "one\ntwo\nthree";
-            Console.WriteLine(a);
-
-            string b = @"c\program\\donet\\solution";
-            Console.WriteLine(b);
-        
-                    
+            Console.WriteLine("Hello WOrld");
+            Console.ReadLine();
         }
     }
 }
