@@ -1,31 +1,26 @@
 ﻿using System;
 
-namespace NestedStatements
+namespace SwitchCase
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("enter the no to be checked");
-            int check = int.Parse(Console.ReadLine());
-            Console.WriteLine("original No{0} ",check);
-            if (check == 1)
+            Console.WriteLine("Enter the no");
+            int i = int.Parse(Console.ReadLine());
+            switch (i)
             {
-                Console.WriteLine("The no is positive");
+                case 10:
+                    Console.WriteLine("your no is 10");
+                    break;
+                    case 11:
+                    Console.WriteLine("your no is 11");
+                    break;
+                default:
+                    Console.WriteLine("Invalid No");
+                    break;
 
             }
-            else if (check == 0)
-            {
-                Console.WriteLine("the no is negative");
-
-            }
-            else
-            {
-                Console.WriteLine("The no is neaural");
-            }
-
-
-
 
         }
     }
