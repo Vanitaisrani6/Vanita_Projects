@@ -1,16 +1,14 @@
 ﻿using System;
 
-namespace UserInput
+namespace ValOfDataTypes
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("enter the amt to withdraw");
-            string val = Console.ReadLine();
-            int amt = Convert.ToInt32(val);
-            Console.WriteLine("Input= {0}", amt);
-            
+            int i = 0;
+            Console.WriteLine("min={0}", int.MinValue);
+            Console.WriteLine("max={0}", int.MaxValue);
 
         }
     }
