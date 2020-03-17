@@ -1,14 +1,21 @@
 ﻿using System;
 
-namespace CoalesingOpreator
+namespace Comments
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int? Previousvalue =null;
-            int AvailableVAlue = Previousvalue ?? 0;
-            Console.WriteLine("AvailableVAlue {0}", AvailableVAlue);
+
+           // Console.WriteLine("Hello World!");//prints hello word in cmd prompt
+            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World!");
+           /* Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World!");*/
+
+            
         }
     }
 }
