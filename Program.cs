@@ -1,21 +1,32 @@
 ﻿using System;
 
-namespace Comments
+namespace NestedStatements
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("enter the no to be checked");
+            int check = int.Parse(Console.ReadLine());
+            Console.WriteLine("original No{0} ",check);
+            if (check == 1)
+            {
+                Console.WriteLine("The no is positive");
 
-           // Console.WriteLine("Hello World!");//prints hello word in cmd prompt
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello World!");
-           /* Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello World!");*/
+            }
+            else if (check == 0)
+            {
+                Console.WriteLine("the no is negative");
 
-            
+            }
+            else
+            {
+                Console.WriteLine("The no is neaural");
+            }
+
+
+
+
         }
     }
 }
